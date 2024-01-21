@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_notification_banners",
+  "info": {
+    "displayName": "Notification banner"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "alert",
+        "info",
+        "warning"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "show": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    }
+  }
+}

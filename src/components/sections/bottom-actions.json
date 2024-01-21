@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_bottom_actions",
+  "info": {
+    "displayName": "Bottom actions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

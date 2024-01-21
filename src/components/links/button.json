@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_links_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "design",
+        "sub"
+      ]
+    }
+  }
+}

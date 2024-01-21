@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_quotes",
+  "info": {
+    "displayName": "Quote"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}

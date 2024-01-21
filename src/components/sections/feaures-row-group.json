@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_feaures_row_groups",
+  "info": {
+    "displayName": "Feaures row group"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature"
+    }
+  }
+}

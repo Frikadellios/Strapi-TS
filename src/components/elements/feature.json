@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_features",
+  "info": {
+    "displayName": "Feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

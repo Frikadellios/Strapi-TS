@@ -1,0 +1,1 @@
+"sharp": "cd node_modules/sharp && bun install && cd ../../",

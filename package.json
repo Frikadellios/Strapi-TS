@@ -1,0 +1,47 @@
+{
+  "name": "api-devopsick-com",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "sharp": "cd node_modules/sharp && bun install && cd ../../"
+  },
+  "devDependencies": { "@types/bun": "^1.0.2", "util": "^0.12.5" },
+  "dependencies": {
+    "@offset-dev/strapi-calendar": "^0.1.1",
+    "@retikolo/drag-drop-content-types": "^1.5.0",
+    "@strapi/plugin-cloud": "4.17.1",
+    "@strapi/plugin-color-picker": "^4.17.1",
+    "@strapi/plugin-graphql": "^4.17.1",
+    "@strapi/plugin-i18n": "4.17.1",
+    "@strapi/plugin-seo": "^1.9.8",
+    "@strapi/plugin-users-permissions": "4.17.1",
+    "@strapi/strapi": "4.17.1",
+    "bun-types": "^1.0.24",
+    "dotenv": "^16.3.2",
+    "pg": "^8.11.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.3",
+    "reading-time": "^1.5.0",
+    "strapi-plugin-comments": "latest",
+    "strapi-plugin-graphs-builder": "^1.0.0",
+    "strapi-plugin-local-image-sharp": "^1.7.0",
+    "strapi-plugin-translate": "^1.2.4",
+    "styled-components": "^6.1.8"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "73ebaa1c-6335-4347-8b5b-11f7e6a9b327"
+  },
+  "license": "MIT"
+}

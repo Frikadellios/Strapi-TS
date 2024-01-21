@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_rich_blocks",
+  "info": {
+    "displayName": "Rich block"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    }
+  }
+}
